@@ -10,7 +10,7 @@ st.title("🎯 Dashboard Analisis Segmentasi Pelanggan (RFM)")
 @st.cache_data
 def muat_data():
     # Pastikan file CSV ini memiliki kolom: Customer ID, Recency, Frequency, Monetary, dan Klaster
-    df = pd.read_csv("data_pelanggan_tersegmentasi.csv")
+    df = pd.read_csv("data_pelanggan_tersegmentasi.xls")
     return df
 
 df_rfm = muat_data()
