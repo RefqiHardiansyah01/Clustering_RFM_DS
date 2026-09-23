@@ -102,7 +102,7 @@ elif pilihan_menu == "Simulasi Pelanggan Baru":
 # ---------------------------------------------------------
 elif pilihan_menu == "Rekomendasi Strategi":
     st.subheader("💡 Strategi Pemasaran Berdasarkan Klaster")
-    st.info("Pilih pendekatan di bawah ini untuk tim Marketing Anda:")
+    st.info("Rekomendasi Strategi:")
     st.markdown("""
     * 🌟 **High-Value / VIP:** Pertahankan loyalitas mereka dengan program keanggotaan eksklusif, penawaran premium VIP, dan promo pre-release.
     * 🌱 **Potensial / Loyal:** Tingkatkan interaksi mereka dengan mengirimkan rekomendasi produk yang personal dan program loyalti berinsentif (upselling).
